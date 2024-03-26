@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Widget</title>
+    <script
+      src="//widget.simplybook.it/v2/widget/widget.js"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var widget = new SimplybookWidget({
+        widget_type: "iframe",
+        url: "https:\/\/shelbyinc.simplybook.it",
+        theme: "default",
+        theme_settings: {
+          timeline_hide_unavailable: "1",
+          hide_past_days: "0",
+          timeline_show_end_time: "0",
+          timeline_modern_display: "as_slots",
+          sb_base_color: "#0a0a0a",
+          display_item_mode: "block",
+          booking_nav_bg_color: "#d1a05c",
+          body_bg_color: "#ffffff",
+          sb_review_image: "4",
+          sb_review_image_preview:
+            "\/uploads\/shelbyinc\/image_files\/preview\/b2fcad8a0e62b6e81706835e7306505b.jpeg",
+          dark_font_color: "#0a0a0a",
+          light_font_color: "#ffffff",
+          btn_color_1: "#d1a05c",
+          sb_company_label_color: "#d1a05c",
+          hide_img_mode: "1",
+          show_sidebar: "1",
+          sb_busy: "#ff6b6b",
+          sb_available: "#2ecc71",
+        },
+        timeline: "modern",
+        datepicker: "top_calendar",
+        is_rtl: false,
+        app_config: {
+          clear_session: 0,
+          allow_switch_to_ada: 0,
+          predefined: { service: "2" },
+        },
+      });
+    </script>
+  </body>
+</html>
